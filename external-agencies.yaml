@@ -648,7 +648,7 @@
          actions: read
          repGlob: "/jcr:content"
 
-       - path: /content/dam/jacob/group-commercial/afb/birell/birell-2018
+       - path: /content/dam/jacob/group-commercial/afb/birell/birell-2018/
          permission: allow
          actions: read,modify,create,delete,acl_read
          
@@ -799,5 +799,41 @@
          repGlob: "/jcr:content"
 
        - path: /content/dam/jacob/elud/urban-development/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - turner duckworth:
+     
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/
          permission: allow
          actions: read,modify,create,delete,acl_read
