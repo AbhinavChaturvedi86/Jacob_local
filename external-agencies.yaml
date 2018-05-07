@@ -1,0 +1,839 @@
+# External Agencies
+
+- group_config:
+
+    # Parent container group for external agencies
+    - external-agency:
+       - name:
+         memberOf: jacob-restricted
+         path: jacob
+
+
+    - dsn:
+        - name:
+          memberOf: external-agency, brand-guardian-birell,brand-guardian-blanc-1664,brand-guardian-carlsberg,brand-guardian-grimbergen,brand-guardian-somersby,brand-guardian-tourtel,brand-guardian-tuborg, elud-users
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="DSN" aboutMe="Design Agency"/>
+      
+    - kontrapunkt:
+        - name:
+          memberOf: external-agency, brand-guardian-birell,brand-guardian-blanc-1664,brand-guardian-carlsberg,brand-guardian-grimbergen,brand-guardian-somersby,brand-guardian-tourtel,brand-guardian-tuborg, elud-users
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Kontrapunkt" aboutMe="Brand Guardian for all brands (Carlsberg, Tuborg, Somersby, Grimbergen, 1664 Blanc, Birell)"/>
+          
+    - elmwood:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Elmwood" aboutMe="Design Agency"/>
+      
+    - taxi:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Taxi" aboutMe="Design Agency"/>
+      
+    - pixelis:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Pixelis" aboutMe="Design Agency"/>
+          
+    - turner duckworth:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Turner Duckworth" aboutMe="Design Agency"/>
+          
+    - brand surface:
+        - name:
+          memberOf: external-agency, brand-guardian-birell,brand-guardian-blanc-1664,brand-guardian-carlsberg,brand-guardian-grimbergen,brand-guardian-somersby,brand-guardian-tourtel,brand-guardian-tuborg, elud-users
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Brand Surface" aboutMe="Design Agency"/>
+
+    - tgs:
+        - name:
+          memberOf: external-agency, brand-guardian-birell,brand-guardian-blanc-1664,brand-guardian-carlsberg,brand-guardian-grimbergen,brand-guardian-somersby,brand-guardian-tourtel,brand-guardian-tuborg, elud-users
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="TGS" aboutMe="Design Agency"/>
+     
+    - grey:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Grey" aboutMe="Creative Agency"/>
+
+    - uncle grey:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Uncle Grey" aboutMe="Creative Agency"/>
+   
+    - yellow:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Yellow" aboutMe="Creative Agency"/>
+
+    - fold7:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Fold7" aboutMe="Creative Agency"/>
+
+    - crispin porter CPH:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Crispin Porter CPH" aboutMe="Creative Agency"/>
+
+    - initiative:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Initiative" aboutMe="Creative Agency"/>
+     
+    - playgrnd:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Playgrnd" aboutMe="Creative Agency"/>
+
+    - noble graphics:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Noble Graphics" aboutMe="Creative Agency"/>
+
+    - mindjumpers:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Mindjumpers" aboutMe="Creative Agency"/>
+
+    - icp:
+        - name:
+          memberOf: external-agency, brand-guardian-birell,brand-guardian-blanc-1664,brand-guardian-carlsberg,brand-guardian-grimbergen,brand-guardian-somersby,brand-guardian-tourtel,brand-guardian-tuborg,elud-users,carlsberg-brand-mdg
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="ICP" aboutMe="Rights agency"/>
+
+    - fuse:
+        - name:
+          memberOf: external-agency, brand-guardian-birell,brand-guardian-blanc-1664,brand-guardian-carlsberg,brand-guardian-grimbergen,brand-guardian-somersby,brand-guardian-tourtel,brand-guardian-tuborg,elud-users,carlsberg-brand-mdg
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Fuse" aboutMe="Rights agency"/>
+          
+    - connected:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Connected" aboutMe="Creative Agency for Greenland"/>
+    
+    - dunckelfeld:
+        - name:
+          memberOf: external-agency,elud-hq
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Dunckelfeld" aboutMe="Creative Agency for UD"/>      
+     
+    - mxm:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="MXM" aboutMe="Creative Agency for UD"/>
+          
+    - makken:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Makken" aboutMe="Creative Agency for UD"/>          
+     
+    - alternative agency:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Alternative Agency" aboutMe="Creative Agency for UD"/>     
+    
+    - museo chile:
+        - name:
+          memberOf: external-agency
+          path: carlsberg
+          profileContent: <jcr:root jcr:primaryType="nt:unstructured" givenName="Museo Chile" aboutMe="Creative Agency for UD"/>
+    
+- ace_config:
+
+     - elmwood:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-2018/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+         
+     - taxi:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/afb/
+         permission: allow
+         actions: read
+         repGlob: ""
+       
+       - path: /content/dam/jacob/group-commercial/core-beer/ 
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/afb/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/afb/birell/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/afb/birell/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+       - path: /content/dam/jacob/group-commercial/afb/birell/birell-2018/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - pixelis:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/grimbergen/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/blanc-1664/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+
+     - grey:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/green/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/green/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/green/campaigns/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - uncle grey:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-2018/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - yellow:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/
+         permission: allow
+         actions: read
+         repGlob: ""
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/pilsner/
+         permission: allow
+         actions: read
+         repGlob: ""
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/pilsner/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/pilsner/campaigns/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/campaigns/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - crispin porter CPH:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/
+         permission: allow
+         actions: read
+         repGlob: ""
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/pilsner/
+         permission: allow
+         actions: read
+         repGlob: ""
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/pilsner/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/twilight/pilsner/campaigns/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/campaigns/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - fold7:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+      
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read
+         repGlob: ""
+       
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+       
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/
+         permission: allow
+         actions: read
+         repGlob: ""
+       
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/core-beer/carlsberg/ny-dawn/pilsner/campaigns/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - noble graphics:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/afb/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: ""
+       
+       - path: /content/dam/jacob/group-commercial/afb/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/afb/birell/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/afb/birell/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/afb/birell/birell-2018/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/watermelon/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/watermelon/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/watermelon/campaigns/
+         permission: allow
+         actions: read
+         repGlob: ""
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/watermelon/campaigns/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/somersby/somersby-original/watermelon/campaigns/somersby-watermelon-2018/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - playgrnd:
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/group-commercial/craft-and-speciality/blanc-1664/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - connected:
+
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/elud/export-license/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/elud/export-license/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+         
+       - path: /content/dam/jacob/elud/export-license/greenland/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - mxm:
+     
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/elud/urban-development/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - makken:
+     
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/elud/urban-development/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - alternative agency:
+     
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/elud/urban-development/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - museo chile:
+     
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/elud/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/elud/urban-development/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
+         
+     - turner duckworth:
+     
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/
+         permission: allow
+         actions: read
+         repGlob: ""
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/
+         permission: allow
+         actions: read
+         repGlob: "/jcr:content"
+
+       - path: /content/dam/jacob/group-commercial/core-beer/tuborg/tuborg-4g/
+         permission: allow
+         actions: read,modify,create,delete,acl_read
